@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#BBDFDC"
+    tools:context=".deanery_main">
+
+
+    <ImageButton
+        android:id="@+id/buttonSt"
+        android:layout_width="128dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/students"
+        android:onClick="one"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewSt"
+        android:layout_width="163dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/buttonSt"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="156dp"
+        android:gravity="center"
+        android:text="Студенты"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/buttonTe"
+        android:layout_width="127dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/textViewSt"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="92dp"
+        android:background="@drawable/teachers"
+        android:onClick="two"
+        android:text="Button 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonSt"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="80dp"
+        android:gravity="center"
+        android:text="Преподаватели"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTe" />
+
+    <ImageButton
+        android:id="@+id/buttonCo"
+        android:layout_width="118dp"
+        android:layout_height="116dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/courses"
+        android:onClick="five"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewCo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonSt"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Курсы"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

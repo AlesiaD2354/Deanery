@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etfirst_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="first_name"/>
+
+    <EditText
+        android:id="@+id/etlast_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="last_name"/>
+
+    <EditText
+        android:id="@+id/etsurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="surname"/>
+
+    <EditText
+        android:id="@+id/etbirth_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="birth_year"/>
+
+    <EditText
+        android:id="@+id/etgroup_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="group_name"/>
+
+</LinearLayout>
